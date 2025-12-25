@@ -1,87 +1,98 @@
-# Welcome to React Router!
+## 🧠 **ResuFlow — AI Resume Analyzer**
 
-A modern, production-ready template for building full-stack React applications using React Router.
+ResuFlow is an intelligent, web-based application that analyzes your resume against a job description using AI to give you actionable feedback. It helps job seekers improve their resumes for specific roles by understanding key skill matches, identifying gaps, and suggesting improvements — making your application more competitive.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+👉 Try the live demo: https://resuflow-seven.vercel.app/
 
-## Features
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
 
-## Getting Started
 
-### Installation
+## 🚀 **Features**
 
-Install the dependencies:
+- 📄 Upload Resume: Accepts resumes in common formats (PDF, DOCX, etc.)
 
-```bash
-npm install
-```
+- 🔍 Job Description Matching: Compares resume content against a job posting
 
-### Development
+- ⭐ Resume Scoring: Provides overall match score and insights
 
-Start the development server with HMR:
+- 📌 Skill & Keyword Analysis: Highlights missing or relevant keywords
 
-```bash
-npm run dev
-```
+- 📊 Actionable Suggestions: Helps optimize your resume for target roles
 
-Your application will be available at `http://localhost:5173`.
 
-## Building for Production
+## 🛠️ **Tech Stack**
 
-Create a production build:
+**Frontend:** React, TypeScript, Tailwind CSS
 
-```bash
-npm run build
-```
+**AI & NLP:** Puter.js
 
-## Deployment
+**Deployment:** Vercel
 
-### Docker Deployment
 
-To build and run using Docker:
+## 📸 **Screenshots**
+
+![Home Screenshot](""C:\Users\Sreerag\Pictures\Screenshots\Screenshot 2025-12-25 145759.png"")
+
+
+## 📦 **Getting Started**
+
+🔁 Clone the repo
 
 ```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
+  git clone https://github.com/Sreerag-03/AI-resume-builder
+  cd ai-resume-builder
 ```
 
-The containerized application can be deployed to any platform that supports Docker, including:
+📦 Install Dependencies
 
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
+```bash
+  npm install
+  # or
+  yarn
 ```
 
-## Styling
+## 🚀 **Run Locally**
 
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
+```bash
+  npm run dev
+  # or
+  yarn dev
+```
+Then open http://localhost:3000 in your browser.
 
----
 
-Built with ❤️ using React Router.
+
+
+## 📈 **Run Locally**
+
+- **Upload your resume file**
+- **Paste (or enter) the job description**
+- **AI processes the inputs and compares them**
+- **Results include match score and suggestions**
+
+
+## 🎯 **Use Cases**
+
+- Preparing resumes tailored to specific job postings
+- Identifying skill gaps and missing keywords
+- Improving ATS (Applicant Tracking System) compatibility
+- Helping students and professionals target roles more effectively
+
+
+## ✨ **Future Improvements**
+
+- 📊 Detailed ATS scoring breakdown
+- 📤 Exportable feedback reports (PDF / JSON)
+- 📌 Save analysis history
+- 🤝 User authentication & profile tracking
+
+
+## ✨ **Contributing**
+
+- Fork the repository
+- Create a new branch
+- Commit your changes
+- Open a PR 🚀
+## 🙏 **Acknowledgements**
+
+Built with ❤️ for job seekers who want smarter, AI-driven resume insights.
